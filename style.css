@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+img {
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+#texto {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: #ffffff;
+}
+
+#texto h1 {
+     font-size: 5rem; 
+    font-weight: 400; 
+    letter-spacing: 15px; 
+    margin-bottom: 50px; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    margin-top: 15%;
+
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
